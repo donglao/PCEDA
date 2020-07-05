@@ -14,8 +14,8 @@ All above pre-trained models should be compatible with the [AdaptSegNet](https:/
 
 ## Edit 1
 
-Hi all! I just uploaded the CPN we used in the paper. Check the UNet_CPN.py for details. 
+Hi all! I just uploaded the CPN we used in the paper. Check the [UNet_CPN.py](./UNet_CPN.py) for details. 
 
-I also uploaded the pre-trained model on GTA5 ==> Cityscapes using DRN-26: [DRN-26: 42.6](https://drive.google.com/file/d/1JuW4oE_T3V9H8nr4LN1DN-aVAfbpykKN/view?usp=sharing). I have tons of models stored in my laptop so hopefully I uploaded the right model. The model should be compatible with [CyCADA](https://github.com/jhoffman/cycada_release). [CPN_cycada](https://drive.google.com/file/d/1DkR88hS9bdHN5130hTYqfic49tobi_PS/view?usp=sharing) is the CPN we used to train this model. It should be compatible with the UNet_CPN.py. 
+I also uploaded the pre-trained model on GTA5 ==> Cityscapes using DRN-26: [DRN-26: 42.6](https://drive.google.com/file/d/1JuW4oE_T3V9H8nr4LN1DN-aVAfbpykKN/view?usp=sharing). I have tons of models stored in my laptop so hopefully I uploaded the right model. The model should be compatible with [CyCADA](https://github.com/jhoffman/cycada_release). [CPN_cycada](https://drive.google.com/file/d/1DkR88hS9bdHN5130hTYqfic49tobi_PS/view?usp=sharing) is the CPN we used to train this model. The parameters are compatible with [UNet_CPN.py](./UNet_CPN.py). 
 
 I am organizing the training scripts and will update later. Cheers!
