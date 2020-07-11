@@ -1,6 +1,6 @@
 # Phase Consistent Ecological Domain Adaptation
 
-![](Teaser_PCEDA.gif)
+![](./Figures/Teaser_PCEDA.gif)
 
 ## A message from the authors
 
@@ -20,9 +20,9 @@ I also uploaded the pre-trained model on GTA5 ==> Cityscapes using DRN-26: [DRN-
 
 [CPN_cycada](https://drive.google.com/file/d/1DkR88hS9bdHN5130hTYqfic49tobi_PS/view?usp=sharing) is the CPN we used to train this model. The parameters are compatible with [UNet_CPN.py](./UNet_CPN.py). [train_cpn_cycada.py](./train_cpn_cycada.py) is the script we used to train this CPN. You may directly put it in the folder of CyCADA and run. I trained my CPN on a laptop, which only allows very small batch size. If you have a stronger GPU, you may tune the batch size and learning rate accordingly for the best outcome. Anyway, you can always use our pre-trained CPN to save your valuable time. This CPN cleans up irregular blobs in the segmentation map pretty well.
 
-Before:![](64_0.png)
+Before:![](./Figures/64_0.png)
 
-After:![](64_1.png)
+After:![](./Figures/64_1.png)
 
 
 
