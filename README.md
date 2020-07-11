@@ -1,6 +1,6 @@
 # Phase Consistent Ecological Domain Adaptation
 
-CVPR 2020
+![](Teaser_PCEDA.gif)
 
 ## A message from the authors
 
@@ -16,6 +16,15 @@ All above pre-trained models should be compatible with the [AdaptSegNet](https:/
 
 Hi all! I just uploaded the CPN we used in the paper. Check the [UNet_CPN.py](./UNet_CPN.py) for details. 
 
-I also uploaded the pre-trained model on GTA5 ==> Cityscapes using DRN-26: [DRN-26: 42.6](https://drive.google.com/file/d/1JuW4oE_T3V9H8nr4LN1DN-aVAfbpykKN/view?usp=sharing). I have tons of models stored in my laptop so hopefully I uploaded the right model. The model should be compatible with [CyCADA](https://github.com/jhoffman/cycada_release). [CPN_cycada](https://drive.google.com/file/d/1DkR88hS9bdHN5130hTYqfic49tobi_PS/view?usp=sharing) is the CPN we used to train this model. The parameters are compatible with [UNet_CPN.py](./UNet_CPN.py). 
+I also uploaded the pre-trained model on GTA5 ==> Cityscapes using DRN-26: [DRN-26: 42.6](https://drive.google.com/file/d/1JuW4oE_T3V9H8nr4LN1DN-aVAfbpykKN/view?usp=sharing). I have tons of models stored in my laptop so hopefully I uploaded the right model. The model should be compatible with [CyCADA](https://github.com/jhoffman/cycada_release). 
+
+[CPN_cycada](https://drive.google.com/file/d/1DkR88hS9bdHN5130hTYqfic49tobi_PS/view?usp=sharing) is the CPN we used to train this model. The parameters are compatible with [UNet_CPN.py](./UNet_CPN.py). [train_cpn_cycada.py](./train_cpn_cycada.py) is the script we used to train this CPN. You may directly put it in the folder of CyCADA and run. I trained my CPN on a laptop, which only allows very small batch size. If you have a stronger GPU, you may tune the batch size and learning rate accordingly for the best outcome. Anyway, you can always use our pre-trained CPN to save your valuable time. This CPN cleans up irregular blobs in the segmentation map pretty well.
+
+Before:![](64_0.png)
+
+After:![](64_1.png)
+
+
+
 
 I am organizing the training scripts and will update later. Cheers!
