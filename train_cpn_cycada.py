@@ -129,6 +129,6 @@ lr = 0.0001
 batch_size = 3
 output = "CPN_output"
 train_cpn(dataset, datadir, lr, 30000, crop_size, batch_size, output, 0)
-train_cpn(dataset, datadir, lr/10, 60000, crop_size, batch_size, output, 60000)
-train_cpn(dataset, datadir, lr/100, 90000, crop_size, batch_size, output, 100000)
+train_cpn(dataset, datadir, lr/10, 60000, crop_size, batch_size, output, 30000)
+train_cpn(dataset, datadir, lr/100, 60000, crop_size, batch_size, output, 100000)
 
