@@ -26,4 +26,4 @@ After:![](./Figures/64_1.png)
 
 ## A demo training script using CPN
 
-See CyCADA_train folder.
+See [CyCADA_train](./CyCADA_train) folder.
