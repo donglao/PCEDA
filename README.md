@@ -24,7 +24,6 @@ Before:![](./Figures/64_0.png)
 
 After:![](./Figures/64_1.png)
 
+## A demo training script using CPN
 
-
-
-I am organizing the training scripts and will update later. Cheers!
+See CyCADA_train folder.
