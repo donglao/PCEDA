@@ -1,6 +1,6 @@
 ## A demo compatible with [CyCADA](https://arxiv.org/pdf/1711.03213.pdf).
 
-This demo training script is borrow from CyCADA. I tried to clean the code up a little bit. To train, please configure your environments following the [official repo](https://github.com/jhoffman/cycada_release) of CyCADA. Then copy both files into the 'scripts' folder, and run:<br>
+This demo training script is borrow from CyCADA. I tried to clean the original CyCADA code up a little bit. To train, please configure your environments following the [official repo](https://github.com/jhoffman/cycada_release) of CyCADA. Then copy both files into the 'scripts' folder, and run:<br>
 `bash ./scripts/train_fcn_adda_cpn.sh`
 
 The key modification is following lines. 
