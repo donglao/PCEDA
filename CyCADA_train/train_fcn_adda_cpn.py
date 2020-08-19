@@ -120,7 +120,7 @@ def main(output, dataset, datadir, lr, momentum, snapshot, downscale, cls_weight
         weights_init, num_cls, lsgan, max_iter, lambda_d, lambda_g,
         train_discrim_only, weights_discrim, crop_size, weights_shared,
         discrim_feat, half_crop, batch, model):
-    path = '/home/lao/cycada_release/with_cpn_try_git.pth'
+
     # So data is sampled in consistent way
     np.random.seed(1337)
     torch.manual_seed(1337)
