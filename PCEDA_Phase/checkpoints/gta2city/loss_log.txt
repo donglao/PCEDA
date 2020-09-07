@@ -1,3 +1,0 @@
-================ Training Loss (Mon Sep  7 00:29:54 2020) ================
-(epoch: 5, iters: 16, time: 1.327, data: 0.288) D_A: 0.449 G_A: 0.351 idt_A: 0.184 cycle_A: 0.794 D_B: 0.466 G_B: 0.545 idt_B: 0.393 cycle_B: 0.418 phase_A: -6.271 phase_B: -7.722 
-(epoch: 10, iters: 11, time: 1.375, data: 0.001) D_A: 0.350 G_A: 0.442 idt_A: 0.147 cycle_A: 0.543 D_B: 0.406 G_B: 0.366 idt_B: 0.258 cycle_B: 0.360 phase_A: -7.119 phase_B: -9.695 
