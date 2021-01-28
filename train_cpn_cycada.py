@@ -36,7 +36,7 @@ def shuffle_label(label, num_classes):
 
 def random_permute(label, num_classes):
     ordering = torch.from_numpy(np.random.permutation(19)).long() # 19 classes 
-    label2 = label
+    label2 = label.clone() # to fix bug
     for i in range(19):
         label2[label==i] = ordering[i]
 
