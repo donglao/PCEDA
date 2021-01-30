@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torchvision
-from Unet_CPN import UNet_CPN
+from UNet_CPN import UNet_CPN
 import random
 
 from PIL import Image
