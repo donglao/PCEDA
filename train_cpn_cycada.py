@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torchvision
-from Unet import UNet
+from Unet_CPN import UNet_CPN
 import random
 
 from PIL import Image
@@ -55,7 +55,7 @@ def one_hot(label, num_classes):
 def train_cpn(dataset, datadir, lr, max_iter, crop_size, batch, output, checkpoint):
     # So data is sampled in consistent way
     loss_rec= deque(maxlen=100)
-    net = UNet()
+    net = UNet_CPN()
     transform = torchvision.transforms.Compose([
         torchvision.transforms.ToTensor(),
         torchvision.transforms.Normalize(
